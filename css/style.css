@@ -1,0 +1,127 @@
+body{
+    padding: 0; 
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.header1{
+    background-color: #87509c;
+    width: 100%;
+    height: 50vh;
+}
+
+.container{
+    display: block;
+    min-width: 100vw;
+    max-width: 100vw;
+    background-color: #87509c;
+    background-size: cover;
+
+}
+
+/* .active a{
+    background-color:#643a79;
+    border:1px solid #643a79;
+    border-bottom:0;
+    border-radius:5px 5px 5px 5px;
+    height: 32px;
+    width: 77px;
+    padding-top: 18px;
+} */
+
+
+
+.container img{
+    width: 116px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #87509c;
+
+}
+
+li a{
+    color: #f7f3ea;
+}
+
+
+h1.services{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    text-align: center;
+    color: #f7f3ea
+}
+
+button{
+    background-color: #eb7d4b;
+    color: #f7f3ea;
+}
+
+.headerTitleCont{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerTitleCont p{
+    font-size: 24px;
+    text-align: center;
+    color: #f7f3ea
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color:#643a79;
+    border:1px solid #643a79;
+    border-bottom:0;
+    border-radius:5px 5px 5px 5px;
+    height: 45px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+}
+/* 2nd half */
+.container2{
+    display: block;
+    min-width: 100vw;
+    max-width: 100vw;
+    background-color: #17c2a4;
+}
+
+.header2{
+    background-color: #17c2a4;
+    min-width: 100%;
+    min-height: 50vh;
+    align-items: center;
+}
+
+
+.header2 img{
+    background-color: #17c2a4;
+    width: 90%;
+    height: 80vh;
+    float: center;
+}
+h1{
+    padding:0;
+    margin:0;
+    font-weight: bold;
+    border: 20px solid rgba(0, 0, 0, 0.0);
+}
+
+h6{
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    color: #f7f3ea;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 20px solid rgba(0, 0, 0, 0.0);
+}
